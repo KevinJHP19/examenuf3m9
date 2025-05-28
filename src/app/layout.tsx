@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-
+import Header from "../mycomponent/Header";
 import "./globals.css";
 import { Inter } from 'next/font/google'
 
@@ -23,7 +23,11 @@ export default function RootLayout({
       <body
         className={`${inter.className} antialiased bg-[#09090B] text-white`}
       >
-        {children}
+        <header>
+          <Header />
+        </header>
+        <main>{children}
+          </main>
       </body>
     </html>
   );
