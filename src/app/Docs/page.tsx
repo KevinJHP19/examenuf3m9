@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 export default function Docs() {
     return (
-        <section className="flex flex-col items-center justify-center bg-black-900 p-6">
+        <section id="docs" className="flex flex-col items-center justify-center bg-black-900 p-6">
             <div className="info w-full max-w-[642px]">
                 <h1 className="text-3xl font-bold text-white sm:text-4xl text-center text-[48px]">
                     Information you need during on-call emergencies
@@ -18,14 +18,16 @@ export default function Docs() {
                 </Button>
             </div>
 
-            <div className="image w-full flex justify-center">
+            
                 <Image
-                    src="portada.png"
+                    src="/portada.png"
                     alt="portada"
-                    className="mt-8 w-full   rounded-lg shadow-lg w-[1024px] h-[632.53px] rounded-[4px]
-]"
+                    className="mt-8 w-full   rounded-lg shadow-lg w-[1024px] h-[632.53px] rounded-[4px]"
+                    width={1024}
+                    height={632.53}
+
                 />
-            </div>
+            
         </section>
     );
 }
