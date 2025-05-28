@@ -34,7 +34,7 @@ export default function Pricing(){
             </div>
             <div className="setup w-[672px] pt-20">
                 <h1 className="text-[48px] font-bold text-center">Instant setup, no custom code</h1>
-                <p className="text-[18px] pt-4 pb-4 text-center font-normal text-[#D9D9D9]">Invite the bot, pick a channel, and you're set—no custom code needed, and no vendor lock-in.</p>
+                <p className="text-[18px] pt-4 pb-4 text-center font-normal text-[#D9D9D9]">Invite the bot, pick a channel, and you re set—no custom code needed, and no vendor lock-in.</p>
                 <Image src="portada.png" alt="portada_setup" className="w-[672px] h-[595.1px]" />
 
             </div>
