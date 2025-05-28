@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 export default function Docs() {
     return (
         <section className="flex flex-col items-center justify-center bg-black-900 p-6">
@@ -18,7 +19,7 @@ export default function Docs() {
             </div>
 
             <div className="image w-full flex justify-center">
-                <img
+                <Image
                     src="portada.png"
                     alt="portada"
                     className="mt-8 w-full   rounded-lg shadow-lg w-[1024px] h-[632.53px] rounded-[4px]

@@ -1,10 +1,11 @@
+import Image from "next/image"
 export default function Footer(){
 
     return (
         <footer className="flex justify-between ps-[32px] pe-[32px] text-white">
             
                 <div className="flex pt-5 pb-5">
-                    <img src="Logo.svg" alt="" />
+                    <Image src="Logo.svg" alt="logofooter" />
                 <h1 className="text-xl font-bold mb-2 md:mb-0">Pandem</h1>
         
                 </div>
